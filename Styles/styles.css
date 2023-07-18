@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.primary-colour {
+  color: #ff42a5;
+}
+
+/* nav-styles */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 130px;
+  /* width: 100%; */
+  padding-left: 240px;
+  padding-right: 240px;
+  /* background-color: yellowgreen; */
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+}
+.nav-title img {
+  height: 40px;
+  width: 86px;
+  padding-right: 20px;
+}
+.nav-title h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+.nav-link a {
+  text-decoration: none;
+  padding-right: 30px;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.follow-us {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px;
+}
+.youtube{
+    color: red;
+    width: 33px;
+    height: 24px;
+}
