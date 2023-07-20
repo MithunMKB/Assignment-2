@@ -53,6 +53,25 @@
   width: 33px;
   height: 24px;
 }
+.twitter{
+    color:white;
+    width: 40px;
+    height: 40px;
+}
+.facebook{
+    color: blue;
+    width: 40px;
+    height: 40px;
+}
+.linkedin{
+    color: #FFF;
+}
+.instagram{
+    color: #ff42a5;
+}
+.apple{
+    color: white;
+}
 
 /* banner */
 .banner-container {
@@ -177,4 +196,39 @@ padding: 120px 120px;
   color: red;
 }
 
+/* footer styles */
+.footer-container{
+    background: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+.footer-des1{
+    display: flex;
+    color: #FFF;
+font-size: 18px;
+font-weight: 600;
+gap: 60px;
 
+}
+.footer-icns{
+    display: flex;
+    gap: 40px
+    
+}
+
+.footer-des-2 {
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+gap: 60px;
+}
+.footer-footer{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
