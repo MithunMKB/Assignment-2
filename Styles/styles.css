@@ -48,8 +48,87 @@
   background: rgba(11, 2, 35, 0.1);
   padding: 20px;
 }
-.youtube{
-    color: red;
-    width: 33px;
-    height: 24px;
+.youtube {
+  color: red;
+  width: 33px;
+  height: 24px;
+}
+
+/* banner */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  padding: 0 140px;
+}
+.plt {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+}
+.goat {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 95px;
+  font-weight: 800;
+}
+.bannet-des{
+    padding-bottom:17px ;
+}
+.btn-sign {
+  border-radius: 48px;
+  background: #ff42a5;
+  padding: 21px 40px;
+  gap: 10px;
+}
+.btn-rogue {
+  border-radius: 48px;
+  background: #4ec5f7;
+  padding: 21px 40px;
+  gap: 10px;
+}
+.half-width {
+  /* width: 50%; */
+}
+
+
+/* funny videos */
+.funny-videos-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.funny-videos-videos{
+    display: flex;
+    justify-items: auto;
+}
+
+.online-games-header{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+padding-bottom: 16px;
+}
+.funny-videos-style{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+.funny-videos-description{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 48px;
 }
