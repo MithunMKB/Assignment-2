@@ -195,6 +195,26 @@ padding: 120px 120px;
   font-size: 1.5rem;
   color: red;
 }
+
+/* play instantly */
+.play-instantly-container{
+    /* background-color: #ff42a5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.man-n-horse{
+    /* position: absolute; */
+    width: 634.833px;
+height: 650px;
+
+}
+
+.maooo{
+    position: relative;
+    height: inherit;
+}
+
 /* Game Cards */
 
 .game-cards{
